@@ -92,7 +92,7 @@ ExtendedDataTableWODND.DataTable.header = Class.create(ClientUI.common.box.Box, 
 				continue;
 			}
 			if (this.enableContextMenu) {
-				var menuImage = headerChildChildren[7];
+				var menuImage = headerChildChildren[3];
 				Utils.DOM.Event.removeListeners(menuImage);
 				Utils.DOM.Event.observe(menuImage,'click',this.menuImageMouseDown);
 			};
@@ -122,7 +122,7 @@ ExtendedDataTableWODND.DataTable.header = Class.create(ClientUI.common.box.Box, 
 				continue;
 			}
 			if (this.enableContextMenu) {
-				var menuImage = headerChildChildren[7];
+				var menuImage = headerChildChildren[3];
 				Utils.DOM.Event.removeListeners(menuImage);
 			}
             var sepSpan = headerChildChildren[1];
